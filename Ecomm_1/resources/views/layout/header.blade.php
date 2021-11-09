@@ -17,8 +17,11 @@
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </ul>
+        <ul class="nav navbar-nav navbar-right me-2">
+          <li class="nav-item"><a href="#" class=" nav-link bi bi-cart ">Cart(0)  </a></li>
+        </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Cart(0)</a></li>
+          <li class="nav-item"><a href="/login" class="nav-link bi bi-box-arrow-in-right">Login</a></li>
         </ul>
       </div>
     </div>

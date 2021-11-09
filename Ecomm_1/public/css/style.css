@@ -18,3 +18,11 @@ footer{
     height: 600px;
     padding-top: 100px;
 } */
+
+.login{
+    border-radius: 0%;
+}
+
+.register{
+    border-radius: 0%;
+}
