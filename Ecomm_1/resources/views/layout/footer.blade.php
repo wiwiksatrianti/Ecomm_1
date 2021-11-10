@@ -7,6 +7,7 @@
 <!-- Style CSS -->
 {{-- <link rel="stylesheet" href="public/css/style.css"> --}}
 <footer class="fixed-bottom bg-light">
-    <p class="text-center">
-        copyright &copy; 2021 by Wiwik Satrianti</p>
+    <small class="d-block text-center ">
+      copyright &copy; 2021 by Wiwik Satrianti
+    </small>
 </footer>

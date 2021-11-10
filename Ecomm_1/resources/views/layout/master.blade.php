@@ -18,6 +18,7 @@
     
     @include('layout.header')  
     @yield('content')
+    
     @include('layout.footer')
 
     <!-- Optional JavaScript; choose one of the two! -->

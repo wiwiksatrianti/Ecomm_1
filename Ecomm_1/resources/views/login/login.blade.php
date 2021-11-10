@@ -3,10 +3,17 @@
 @section('content')
 <div class="container position-absolute top-50 start-50 translate-middle">
     <div class="row justify-content-md-center">
-        <div class="login col-sm-4">
+        <div class="login col-lg-4">
+            @if (session()->has('success'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    {{ session('success') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            @endif
+
             <h3>Please Login</h3>
-            {{-- <form action="" method="POST">
-                @csrf --}}
+            <form action="/login" method="POST">
+                @csrf
                 <div class="form-floating">
                     <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" autofocus required>
                     <label for="email">Email address</label>
@@ -19,7 +26,7 @@
                     <button type="button" class="btn btn-outline-primary">Login</button>
                 </div>
                 <small class="d-block text-center">Not registered? <a href="/register">Register Now!</a></small>
-            {{-- </form> --}}
+            </form>
         </div>
     </div>
 </div>
