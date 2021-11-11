@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Style CSS -->
-    <link rel="stylesheet" href="{{asset('/css/style.css')}}">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,10 +16,8 @@
   </head>
   <body>
     
-    @include('layout.header')  
+    {{-- @include('layout.header')   --}}
     @yield('content')
-    
-    @include('layout.footer')
 
     <!-- Optional JavaScript; choose one of the two! -->
 

@@ -1,6 +1,23 @@
 @extends('layout.master')
 
 @section('content')
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow mb-5 bg-body rounded">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav mb-2 mb-lg-0 me-auto">
+          <li class="nav-item">
+            <a class="nav-link bi bi-arrow-left-short" href="/">Kembali</a>
+          </li>
+        </ul>
+        
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item"><a href="/#" class="nav-link">Butuh Bantuan?</a></li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
 <div class="container position-absolute top-50 start-50 translate-middle">
     <div class="row justify-content-md-center">
         <div class="login col-lg-4">
